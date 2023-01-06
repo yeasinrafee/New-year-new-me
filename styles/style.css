@@ -23,7 +23,7 @@ body{
     align-items: center;
     justify-content: end;
 }
-.banner-content{
+.banner-container{
     padding: 0 230px;
 }
 .banner-heading{
@@ -48,4 +48,39 @@ body{
     background: #FFFFFF;
     border: none;
     border-radius: 5px;
+}
+
+/* Content Section */
+.section-content{
+    padding: 132px 210px;
+}
+.content-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-texts{
+    width: 416px;
+    height: 400px;
+}
+.heading-secondary{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.text{
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.content-lists{
+    list-style: none;
+}
+.list{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
 }
