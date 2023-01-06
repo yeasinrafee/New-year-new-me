@@ -5,6 +5,20 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+.heading-secondary{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.heading-tertiary{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 16px;
+}
 
 
 /* Banner Section: */
@@ -63,13 +77,6 @@ body{
     width: 416px;
     height: 400px;
 }
-.heading-secondary{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    color: #151414;
-    margin-bottom: 24px;
-}
 .text{
     font-size: 16px;
     color: #444343;
@@ -83,4 +90,26 @@ body{
     font-size: 16px;
     color: #444343;
     margin-bottom: 8px;
+}
+
+/* Plan Section */
+.section-plan{
+    padding: 0 130px 240px;
+}
+.plan-container{
+    text-align: center;
+}
+.plan-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.plan-img{
+    margin-bottom: 18px;
+}
+.plan-text{
+    font-weight: 500;
+    color: #737272;
+    font-size: 25px;
 }
