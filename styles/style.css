@@ -1,3 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: red;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Banner Section: */
+.section-banner{
+    height: 100vh;
+
+    /* for background */
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+
+    /* for alignment */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.banner-content{
+    padding: 0 230px;
+}
+.banner-heading{
+    font-size: 65px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 76px;
+    margin-bottom: 24px;
+}
+.banner-text{
+    width: 494px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.banner-btn{
+    padding: 20px 26px;
+    font-size: 20px;
+    color: #005FAC;
+    font-weight: 600;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
 }
