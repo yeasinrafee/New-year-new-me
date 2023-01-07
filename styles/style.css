@@ -54,7 +54,7 @@ body{
     line-height: 26px;
     margin-bottom: 32px;
 }
-.banner-btn{
+.btn-primary{
     padding: 20px 26px;
     font-size: 20px;
     color: #005FAC;
@@ -94,7 +94,7 @@ body{
 
 /* Plan Section */
 .section-plan{
-    padding: 0 130px 240px;
+    padding: 0 130px 130px;
 }
 .plan-container{
     text-align: center;
@@ -112,4 +112,27 @@ body{
     font-weight: 500;
     color: #737272;
     font-size: 25px;
+}
+
+/* Call to action section */
+.section-cta{
+    padding: 0 230px 130px;
+}
+.cta-container{
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.cta-content{
+    padding: 60px 64px;
+}
+.cta-heading{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 24px;
 }
