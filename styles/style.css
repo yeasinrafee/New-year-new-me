@@ -136,3 +136,66 @@ body{
     line-height: 47px;
     margin-bottom: 24px;
 }
+
+/* Footer section */
+.section-footer{
+    padding: 130px 230px;
+    background-color:#151414 ;
+    color:#FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content{
+    width: 485px;
+}
+.footer-header{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.footer-text{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.cta-email{
+    margin-bottom: 16px;
+}
+.cta-phone{
+    margin-bottom: 32px;
+}
+.footer-icons{
+    display: flex;
+    gap: 18px;
+}
+
+.form-heading{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input[type=email]{
+    padding: 22px 158px 22px 22px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+input[type=submit]{
+    width: 172px;
+    padding: 20px 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: #005FAC;
+    border-radius: 8px;
+}
